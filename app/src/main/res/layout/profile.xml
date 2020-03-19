@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/scrollView1">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:errorEnabled="true"
+            android:text="Name"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:id="@+id/update_name"
+                 />
+
+
+
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:errorEnabled="true"
+            android:text="Phone"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:id="@+id/update_phone"
+                />
+
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:errorEnabled="true"
+            android:text="Street"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/update_street"
+                android:ems="10"
+                />
+
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:errorEnabled="true"
+            android:text="Place"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/update_place"
+                android:ems="10"
+                />
+
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="28dp"
+            android:onClick="saveData"
+            android:text="@string/save" />
+
+    </LinearLayout>
+
+</ScrollView>
+
